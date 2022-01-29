@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRD gym and fitness center </title>
+</head>
+<link rel="stylesheet" href="css/stle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+    /* css reset */
+    body{
+        color: rgb(107, 241, 197);
+        margin: 0px;
+        padding: 0px;
+        background: url('image/crossfit-ga43bfefe5_1920.jpg');
+        font-family: 'Alfa Slab One', cursive;
+    }
+    .left{
+       /* border: 2px solid green; */
+       display: inline-block;
+       position: absolute;
+       top: 20px;
+       left: 34px;
+    }
+    .left div{
+        text-align: center;
+        color: rgb(61, 64, 240);
+        font-size: 20px;
+    }
+    .left img{
+        width: 150px;
+        background-color: lime;
+    }
+    .mid{
+        /* border: 2px solid red; */
+        display: block;
+        width: 50%;
+        
+        margin: 25px auto;
+    }
+    .right{
+        position: absolute;
+        top: 33px;
+        right: 34px;
+        /* border: 2px solid blue; */
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: rgb(55, 235, 79);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover ,.navbar li a.active{
+       text-decoration: underline;
+       color: green;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: rgb(1, 13, 17);
+        padding: 3px 4px;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+        color: green;
+        font-family: 'Alfa Slab One', cursive;
+    }
+    .btn:hover{
+        background-color: rgb(0, 230, 199);
+    }
+    .container{
+        border: 2px solid rgb(12, 12, 12);
+    margin: 136px 33px;
+    padding: 36px 55px;
+    border-radius: 9px;
+    width: 334px;
+    }
+    .form-group input{
+        
+        text-align: center;
+    font-size: 20px;
+    width: 240px;
+    border-radius: 10px;
+    margin: 3px 26px;
+    }
+    .form-group div{
+        font-size: 20px;
+    }
+    .container h2{
+        margin: 10px 36px;
+    }
+    form .btn{
+        margin: 18px 27px;
+    background-color: rgb(1, 13, 17);
+    padding: 4px 91px;
+    border-radius: 17px;
+    font-size: 20px;
+    cursor: pointer;
+    color: green;
+    font-family: 'Alfa Slab One', cursive;
+    }
+    
+   
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="image/logo.png" alt="eror loading image">
+             <div>BE STRONG</div> 
+        </div>
+        <!-- mid box for header -->
+        <div class="mid">
+           <ul class="navbar">
+               <li><a href="#" class="active">home</a></li>
+               <li><a href="#">about us</a></li>
+               <li><a href="#">contact us</a></li>
+               <li><a href="#">social media</a></li>
+           </ul>
+        </div>
+        <!-- right box for botton -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>come to my gym</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <div><input type="text" name="" placeholder="enter your name"></div>
+                <div><input type="text" name="" placeholder="enter your age"></div>
+                <div><input type="text" name="" placeholder="enter your gender"></div>
+                <div><input type="text" name="" placeholder="enter your locality"></div>   
+                <div><input type="text" name="" placeholder="enter your phone no."></div>   
+                <div><input type="text" name="" placeholder="enter your email"></div>   
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
